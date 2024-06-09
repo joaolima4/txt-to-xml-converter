@@ -1,0 +1,208 @@
+multichoice;O que é um dicionário em Python?;
+A;Uma estrutura de dados ordenada e mutável;-25;
+B;Uma coleção ordenada de elementos únicos;-25;
+C;Uma coleção desordenada de elementos indexados por chaves;100;
+D;Uma lista imutável de elementos;-25;
+
+
+multichoice;O que é uma lista em Python?;
+A;Uma estrutura de dados que armazena elementos em uma ordem específica e permite elementos duplicados;100;
+B;Uma função embutida em Python que cria um conjunto de elementos;-25;
+C;Uma variável que armazena apenas um único valor por vez;-25;
+D;Um tipo de dado que só pode conter números inteiros;-25;
+
+
+multichoice;Como se declara uma lista vazia em Python?;
+A;list();-25;
+B;[];100;
+C;();-25;
+D;{};-25;
+
+
+multichoice;Como se acessa ao terceiro elemento de uma lista chamada my_list?;
+A;my_list[2];100;
+B;my_list[3];-25;
+C;my_list[1];-25;
+D;my_list.third();-25;
+
+
+multichoice;Como se adiciona um novo elemento ao final de uma lista em Python?;
+A;my_list.append(element);100;
+B;my_list.add(element);-25;
+C;my_list.insert(-1, element);-25;
+D;my_list.extend(element);-25;
+
+
+multichoice;Qual método em uma lista é usado para remover um elemento específico?;
+A;remove();100;
+B;pop();-25;
+C;delete();-25;
+D;discard();-25;
+
+
+multichoice;Como se inverte a ordem dos elementos em uma lista?;
+A;reverse();100;
+B;sort();-25;
+C;invert();-25;
+D;backwards();-25;
+
+
+multichoice;Como se verifica se um elemento está presente em uma lista?;
+A;check(element);100;
+B;exists(element);-25;
+C;in element;-25;
+D;element in my_list;-25;
+
+
+multichoice;Como se encontra o comprimento de uma lista em Python?;
+A;len(list);100;
+B;list.length();-25;
+C;length(list);-25;
+D;list.size();-25;
+
+
+multichoice;Como se remove o último elemento de uma lista?;
+A;list.remove(-1);-25;
+B;list.delete(-1);-25;
+C;list.pop(-1);100;
+D;list.end();-25;
+
+
+multichoice;Qual é a principal característica dos dicionários em Python?;
+A;São ordenados;-25;
+B;Permitem duplicatas;-25;
+C;São mutáveis;100;
+D;São imutáveis;-25;
+
+
+multichoice;Qual é o método utilizado para inverter a ordem dos elementos numa lista em Python?;
+A;reverse();100;
+B;sort();-25;
+C;flip();-25;
+D;revert();-25;
+
+
+multichoice;Qual é a função do método update() em um dicionário Python?;
+A;Adicionar um novo par chave-valor ao dicionário.;-25;
+B;Atualizar o valor associado a uma chave existente no dicionário.;100;
+C;Ordenar o dicionário em ordem alfabética.;-25;
+D;Remover uma chave específica do dicionário.;-25;
+
+
+multichoice;Qual o método utilizado para obter o número de elementos em uma lista Python chamada my_lista?;
+A;len(my_lista);100;
+B;count(my_lista);-25;
+C;size(my_lista);-25;
+D;elements(my_lista);-25;
+
+
+multichoice;Qual é a função do método clear() em uma lista Python?;
+A;Remover o último elemento da lista.;-25;
+B;Excluir todos os elementos da lista.;100;
+C;Adicionar um novo elemento ao final da lista.;-25;
+D;Ordenar os elementos da lista em ordem alfabética.;-25;
+
+
+multichoice;Como obter o elemento na segunda linha e terceira coluna de uma matriz em Python?;
+A;matriz[1, 2];-25;
+B;matriz[2][1];100;
+C;matriz.get(1, 2);-25;
+D;matriz.elemento(2, 1);-25;
+
+
+multichoice;Como concatenar duas listas em Python?;
+A;Utilizando o método concat():;-25;
+B;Utilizando o operador +:;100;
+C;Utilizando o método merge():;-25;
+D;Utilizando o método extend():;-25;
+
+
+multichoice;Em Python, qual é a forma correta de verificar se duas listas são iguais?
+A;Usando o operador de igualdade ==;100;
+B;Usando o método compare();-25;
+C;Usando a função is_equal();-25;
+D;Usando a função equals();-25;
+
+
+multichoice;Como você pode criar uma lista de listas em Python?
+A;Utilizando o método list_of_lists();-25;
+B;[[1, 2], [3, 4], [5, 6]];100;
+C;list.append([1, 2]).append([3, 4]).append([5, 6]);-25;
+D;list([1, 2], [3, 4], [5, 6]);-25;
+
+
+multichoice;Qual é a função do método keys() em um dicionário em Python?
+A;Retorna os valores do dicionário.;-25;
+B;Retorna as chaves do dicionário.;100;
+C;Retorna os itens do dicionário.;-25;
+D;Retorna os índices do dicionário.;-25;
+
+
+multichoice;Qual seria o codigo necessário para aceder ao valor associado à chave "idade" em um dicionário Python chamado pessoa?;
+A;pessoa.valor("idade");-25;
+B;pessoa["idade"];100;
+C;pessoa.get("idade");-25;
+D;pessoa.access("idade");-25;
+
+
+multichoice;Como verificar se a chave "nome" está presente em um dicionário chamado "dados" em Python?;
+A;dados.existe("nome");-25;
+B;"nome" in dados;100;
+C;dados.contains("nome");-25;
+D;dados.has_key("nome");-25;
+
+
+multichoice;Qual seria o metodo utilizado para remover a chave "idade" de um dicionário Python chamado pessoa?;
+A;pessoa.remove("idade");-25;
+B;pessoa.pop("idade");-25;
+C;pessoa.delete("idade");-25;
+D;del pessoa["idade"];100;
+
+
+multichoice;Qual é a diferença entre as funções insert() e append() ao adicionar elementos a uma lista Python?;
+A;insert() é usado para adicionar elementos ao final da lista, enquanto append() é usado para adicionar elementos em uma posição específica.;-25;
+B;insert() é usado para adicionar elementos em uma posição específica, enquanto append() é usado para adicionar elementos ao final da lista.;100;
+C;Ambas as funções são usadas para adicionar elementos ao final da lista, mas append() é mais eficiente.;-25;
+D;Ambas as funções são usadas para adicionar elementos em uma posição específica, mas append() é mais eficiente.;-25;
+
+
+multichoice;Qual é a diferença entre os operadores "+" e "*" ao trabalhar com listas em Python?;
+A;Ambos são usados para concatenar duas listas.;-25;
+B;"+" é usado para concatenar duas listas, enquanto "*" é usado para repetir uma lista.;100;
+C;"*" é usado para concatenar duas listas, enquanto "+" é usado para repetir uma lista.;-25;
+D;Ambos são usados para repetir uma lista.;-25;
+
+
+multichoice;Como criar uma matriz 3x3 com todos os elementos inicializados como zero em Python?;
+A;matriz = [[1, 1, 1], [1, 1, 1], [1, 1, 1]];-25;
+B;matriz = [[0, 0, 0], [0, 0, 0], [0, 0, 0]];100;
+C;matriz = [3][3];-25;
+D;matriz = [0, 0, 0, 0, 0, 0, 0, 0, 0];-25;
+
+
+multichoice;Como se itera sobre os elementos de uma lista em Python usando um loop for?;
+A;Utilizando o método foreach():;-25;
+B;Utilizando o método for_each():;-25;
+C;Utilizando o método for item in lista::;100;
+D;Utilizando o método for i in range(len(lista))::;-25;
+
+
+multichoice;Qual o método utilizado para adicionar a chave "cidade" com o valor "Paris" a um dicionário existente chamado destinos em Python?;
+A;destinos.add("cidade", "Paris");-25;
+B;destinos["cidade"] = "Paris";100;
+C;destinos.insert("cidade", "Paris");-25;
+D;destinos.update({"cidade": "Paris"});-25;
+
+
+multichoice;Qual o método utilizado para adicionar múltiplos itens a um dicionário Python chamado stock de uma vez?;
+A;stock.add_items({"item1": 10, "item2": 5, "item3": 8});-25;
+B;stock.extend({"item1": 10, "item2": 5, "item3": 8});-25;
+C;stock.update({"item1": 10, "item2": 5, "item3": 8});100;
+D;stock.append({"item1": 10, "item2": 5, "item3": 8});-25;
+
+
+multichoice;Como substituir o valor associado à chave "preco" por 13 em um dicionário Python chamado "produto"?;
+A;produto.replace("preco", 13);-25;
+B;produto.set("preco", 13);-25;
+C;produto.update({"preco": 13});-25;
+D;produto["preco"] = 13;100;
